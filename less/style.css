@@ -1,0 +1,148 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #7b0738;
+  text-align: right;
+  justify-content: space-evenly;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+nav .logo {
+  height: 100%;
+  float: left;
+}
+nav .logo img {
+  height: 90%;
+  float: left;
+}
+nav .navigation a {
+  color: white;
+  text-decoration: none;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 20px;
+  position: relative;
+  padding: 10px;
+}
+html {
+  background-color: #bc2b62;
+}
+html,
+body {
+  height: 100%;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  position: relative;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: Roboto;
+  text-align: center;
+  padding: 25px;
+  position: relative;
+
+}
+.wrapper {
+  width: 100%;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  position: relative;
+}
+.splash {
+  height: 500px;
+  background-image: url("../assets/images/marvels-guardians-of-the-galaxy-4k-wallpaper-3840x2160-uhdpaper.com-533.1_a.jpg");
+  position: relative;
+  background-size: cover;
+}
+.splash .splashContent {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: rgba(89, 72, 150, 0.65);
+  padding-top: 50px;
+}
+.full {
+  min-height: 300px;
+  background-color: #aaabfd;
+  color: black;
+  text-align: center;
+  padding-right: 250px;
+  padding-left: 250px;
+  position: relative;
+}
+.content {
+  min-height: 300px;
+  background-color: #594896;
+  color: black;
+  width: 100%;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.content .box {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  background-color: #aaabfd;
+  color: black;
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 75%;
+
+}
+.content .box .imgBox {
+  border: 3px white solid;
+  border-radius: 10px;
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex: auto;
+  justify-content: space-evenly;
+  margin: auto;
+}
+footer {
+  width: 100%;
+  min-height: 60px;
+  text-align: center;
+  bottom: 0;
+}
+footer .links {
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+}
+footer .links a {
+  color: white;
+  text-decoration: none;
+  bottom: 0;
+  padding: 200px;
+}
+footer .copyright {
+  color: white;
+  text-align: center;
+  bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
